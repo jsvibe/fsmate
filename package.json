@@ -1,0 +1,36 @@
+{
+  "name": "fsmate",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js library for working with the file system (fs) in a simplified way.",
+  "main": "lib/fsmate.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsvibe/fsmate.git"
+  },
+  "keywords": [
+    "file",
+    "filesystem",
+    "fs",
+    "fsmate",
+    "nodejs",
+    "file-utility",
+    "mkdir",
+    "readfile",
+    "writefile"
+  ],
+  "author": "Indian Modassir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsvibe/fsmate/issues"
+  },
+  "homepage": "https://github.com/jsvibe/fsmate#readme",
+  "dependencies": {
+    "printfy": "^2.0.2"
+  }
+}
