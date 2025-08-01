@@ -33,5 +33,8 @@
   "homepage": "https://github.com/jsvibe/fsmate#readme",
   "dependencies": {
     "printfy": "^2.0.2"
+  },
+  "devDependencies": {
+    "terser": "^5.30.1"
   }
 }
