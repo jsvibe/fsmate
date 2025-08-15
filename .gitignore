@@ -1,0 +1,12 @@
+node_modules
+vendor
+.DS_STORE
+.vscode
+.fleet
+.zed
+.idea
+*.iml
+*.swp
+*.swo
+*.log*
+.env*
