@@ -9,10 +9,10 @@ fsMate A modular collection of file system utilities for Node.js
 [![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/fsmate?logo=jsdelivr)](https://www.jsdelivr.com/package/npm/fsmate)
 ![author](https://img.shields.io/badge/Author-Modassir-blue)
 
-It simplifies working with files and directories by providing a higher-level, promise-based API for common file operations such as checking access permissions, creating files/directories, copying files, and mirroring directories.
-
 > This package accesses the local file system to perform its core functionality.
 It does not transmit file contents to any remote server.
+
+It simplifies working with files and directories by providing a higher-level, promise-based API for common file operations such as checking access permissions, creating files/directories, copying files, and mirroring directories.
 
 Installation
 ------------
