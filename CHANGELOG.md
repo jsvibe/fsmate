@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v2.1.0](https://github.com/jsvibe/quanter/compare/v2.0.0...v2.1.0) - 17-08-2025
+
+- Updated `package.json` Add the `exports` in `esm` support [@indianmodassir](https://github.com/indianmodassir)
+
 ## [v2.0.0](https://github.com/jsvibe/quanter/compare/v1.0.0...v2.0.0) - 16-08-2025
 
 - Added `isLink` Check if the given path is a symbolic link. [@indianmodassir](https://github.com/indianmodassir)

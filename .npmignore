@@ -1,6 +1,7 @@
 node_modules
 vendor
 test
+tests
 doc
 package-lock.json
 CHANGELOG.md
