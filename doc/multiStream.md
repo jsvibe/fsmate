@@ -21,4 +21,4 @@ const stream3 = fs.createInputStream('Third data');
 fs.multiStream([stream1, stream2, stream3]);
 ```
 
-Learn more `createInputStream` see: [documentation](https://github.com/jquick/fsmate/blob/doc/createInputStream.md)
+Learn more `createInputStream` see: [documentation](./createInputStream.md)

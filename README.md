@@ -8,6 +8,7 @@ fsMate A modular collection of file system utilities for Node.js
 [![downloads month](https://img.shields.io/npm/dm/fsmate)](https://www.npmjs.com/package/fsmate)
 [![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/fsmate?logo=jsdelivr)](https://www.jsdelivr.com/package/npm/fsmate)
 ![author](https://img.shields.io/badge/Author-Modassir-blue)
+[![Publish Package to npm](https://github.com/jsvibe/fsmate/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/jsvibe/fsmate/actions/workflows/npm-publish.yml)
 
 > This package accesses the local file system to perform its core functionality.
 It does not transmit file contents to any remote server.
@@ -109,6 +110,7 @@ Asynchronous methods with short describe and complete documentation.
 |[exists](doc/exists.md)|Check if a file or directory exists.|
 |[touch](doc/touch.md)|Create a file if it doesn’t exist or update its timestamp.|
 |[rename](doc/rename.md)|Rename or move a file/directory.|
+|[move](doc/move.md)|Asyncronously moves a file or directory.|
 |[scandir](doc/scandir.md)|List files and directories in a given folder.|
 |[remove](doc/remove.md)|Safely remove files or directories (with rename trick).|
 |[rm](doc/rm.md)|Remove files or directories using native `fs.rm`.|
@@ -138,6 +140,7 @@ Synchronous methods with short describe and complete documentation.
 |[mkfileSync](doc/mkfileSync.md)|Create an empty files (or overwrite if specified).|
 |[touchSync](doc/touchSync.md)|Sync create/update file timestamp.|
 |[renameSync](doc/renameSync.md)|Sync rename or move a file/directory.|
+|[moveSync](doc/moveSync.md)|Sync moves a file or directory.|
 |[scandirSync](doc/scandirSync.md)|Sync list directory contents.|
 |[removeSync](doc/removeSync.md)|Sync safe remove (with rename trick).|
 |[appendFileSync](doc/appendFileSync.md)|Sync append content to a file.|
@@ -151,7 +154,7 @@ Synchronous methods with short describe and complete documentation.
 |[prependFileSync](doc/prependFileSync.md)|Sync add content at file start.|
 |[dumpFileSync](doc/dumpFileSync.md)|Sync atomic file write.|
 
-## Other Methods
+### Other Methods
 
 Here listed other methods with short describe and complete documentation.
 
