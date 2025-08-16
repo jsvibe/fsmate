@@ -94,6 +94,8 @@ Methods And Features
 
 ### Async
 
+Asynchronous methods with short describe and complete documentation.
+
 |Method|Description|
 |:--------|:--------|
 |[isExecutable](doc/isExecutable.md)|Check if a file/directory has execute permissions.|
@@ -122,6 +124,8 @@ Methods And Features
 
 ### Sync
 
+Synchronous methods with short describe and complete documentation.
+
 |Method|Description|
 |:--------|:--------|
 |[isExecutableSync](doc/isExecutableSync.md)|Sync check for execute permissions.|
@@ -148,6 +152,9 @@ Methods And Features
 |[dumpFileSync](doc/dumpFileSync.md)|Sync atomic file write.|
 
 ## Other Methods
+
+Here listed other methods with short describe and complete documentation.
+
 |Method|Description|
 |:--------|:--------|
 |[multiStream](doc/multiStream.md)|Merge multiple readable streams into one.|
@@ -164,6 +171,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 License
 -------
 
-Licensed Under MIT
+Licensed Under [MIT](LICENSE)
 
 Copyright (c) 2025 [Indian Modassir](https://github.com/indianmodassir)
