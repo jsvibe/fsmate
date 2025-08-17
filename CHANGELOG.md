@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v2.2.1](https://github.com/jsvibe/quanter/compare/v2.2.0...v2.2.1) - 18-08-2025
+
+- Fixed bugs `readLine` and `readLineSync` [@indianmodassir](https://github.com/indianmodassir).
+
 ## [v2.2.0](https://github.com/jsvibe/quanter/compare/v2.1.1...v2.2.0) - 17-08-2025
 
 - Added `move` Asyncronously moves a file or directory [@indianmodassir](https://github.com/indianmodassir).
