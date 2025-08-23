@@ -25,7 +25,7 @@ fs.isReadable('/home/user/file.txt')
 // With async/await:
 async function isReadable(path) {
   try {
-    const matched = fs.isReadable(path);
+    const matched = await fs.isReadable(path);
     console.log('isReadable:', matched);
   } catch(err) {
     console.log(err);

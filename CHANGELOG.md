@@ -1,5 +1,11 @@
 # Release Notes
 
+## [v2.4.0](https://github.com/jsvibe/quanter/compare/v2.3.0...v2.4.0) - 23-08-2025
+
+- Added `truncate` Clears file content without deleting it (creates if missing) [@indianmodassir](https://github.com/indianmodassir).
+- Added `truncateSync` Sync Empties a file but keeps it (creates if missing) [@indianmodassir](https://github.com/indianmodassir).
+- Improved documentation and fixed some missing code [@indianmodassir](https://github.com/indianmodassir).
+
 ## [v2.3.0](https://github.com/jsvibe/quanter/compare/v2.2.2...v2.3.0) - 23-08-2025
 
 - Added `fseek` Seeks on a file pointer [@indianmodassir](https://github.com/indianmodassir).
@@ -84,9 +90,8 @@
 - Added `tmpName` Generate a random temporary file/directory name. [@indianmodassir](https://github.com/indianmodassir)
 - Added `tempNam` Generate a SHA1-hash-based temp file name. [@indianmodassir](https://github.com/indianmodassir)
 - Added `createInputStream` Convert string, Buffer, or object into a readable stream. [@indianmodassir](https://github.com/indianmodassir)
-
 - Removed `fsMate.access()` method from [v2.0.0] [@indianmodassir](https://github.com/indianmodassir)
-- Renamed `fsMate.mkFile` to `fsMate.mkfile` from [v2.0.0] (https://github.com/indianmodassir)
+- Renamed `fsMate.mkFile` to `fsMate.mkfile` from [v2.0.0] [@indianmodassir](https://github.com/indianmodassir)
 
 ## [v1.0.0](https://github.com/jsvibe/fsmate/releases/tag/v1.0.0) - 26-07-2025
 

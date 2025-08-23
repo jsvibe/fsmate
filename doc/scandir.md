@@ -21,6 +21,7 @@ const options = {
   withDeepScan: true   // For deep scanning
 };
 
+// With Promises:
 fs.scandir('/home/sources', options)
 .then(results => {
   console.log(results);
@@ -28,9 +29,10 @@ fs.scandir('/home/sources', options)
   console.log('success');
 });
 
+// With async/await:
 async function scandir(dir, options) {
   try {
-    const res = fs.scandir(dir, options);
+    const res = await fs.scandir(dir, options);
     console.log(res);
   } catch(err) {
     console.log(err);

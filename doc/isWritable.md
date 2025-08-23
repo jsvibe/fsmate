@@ -25,8 +25,8 @@ fs.isWritable('/var/www/index.html')
 // With async/await:
 async function isWritable(path) {
   try {
-    fs.isWritable(path);
-    console.log('Writable');
+    const writable = await fs.isWritable(path);
+    console.log(writable);
   } catch(err) {
     console.log(err);
   }

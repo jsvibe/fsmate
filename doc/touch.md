@@ -43,6 +43,7 @@ const fs = require('fsmate');
 let modifiedTime = new Date();
 let accessTime = new Date();
 
+// With Promises:
 fs.touch('newfile.txt', modifiedTime, accessTime)
 .then(() => {
   console.log('success');
@@ -50,6 +51,7 @@ fs.touch('newfile.txt', modifiedTime, accessTime)
   console.log(err);
 });
 
+// With async/await:
 async function touch(filePath, modifiedTime, accessTime) {
   try {
     await fs.touch(filePath, modifiedTime, accessTime);
@@ -70,6 +72,7 @@ const fs = require('fsmate');
 let modifiedTime = new Date();
 let accessTime = new Date();
 
+// With Promises:
 fs.touch([
   'newfile.txt',
   'README.md',
@@ -81,6 +84,7 @@ fs.touch([
   console.log(err);
 });
 
+// With async/await:
 async function touch(filePath, modifiedTime, accessTime) {
   try {
     await fs.touch(filePath, modifiedTime, accessTime);

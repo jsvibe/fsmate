@@ -116,6 +116,7 @@ Asynchronous methods with short describe and complete documentation.
 |[rm](doc/rm.md)|Remove files or directories using native `fs.rm`.|
 |[mirror](doc/mirror.md)|Recursively copy an entire directory tree.|
 |[copy](doc/copy.md)|Copy a single file with overwrite control.|
+|[truncate](doc/truncate.md)|Clears file content without deleting it (creates if missing).|
 |[empty](doc/empty.md)|Remove all contents inside a file or directory without deleting it.|
 |[prependFile](doc/prependFile.md)|Add content at the beginning of a file.|
 |[readFile](doc/readFile.md)|Read a file's content (optionally parse JSON).|
@@ -155,6 +156,7 @@ Synchronous methods with short describe and complete documentation.
 |[emptySync](doc/emptySync.md)|Sync remove all contents inside a file/directory.|
 |[mirrorSync](doc/mirrorSync.md)|Sync recursively copy a directory tree.|
 |[copySync](doc/copySync.md)|Sync copy a single file.|
+|[truncateSync](doc/truncateSync.md)|Sync Empties a file but keeps it (creates if missing).|
 |[readFileSync](doc/readFileSync.md)|Read a file's content (optionally parse JSON).|
 |[rmSync](doc/rmSync.md)|Sync remove file/directory using native `fs.rm`.|
 |[readLineSync](doc/readLineSync.md)|Sync read file line-by-line.|

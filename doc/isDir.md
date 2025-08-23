@@ -14,6 +14,7 @@ Checks if the given path points to a directory. Returns a Promise that resolves 
 ```js
 const fs = require('fsmate');
 
+// With Promises:
 fs.isDir('your-path')
 .then((isExists) => {
   console.log('exists:', isExists);
@@ -21,6 +22,7 @@ fs.isDir('your-path')
   console.log(err);
 });
 
+// With async/await:
 async function isDir(path) {
   try {
     const isExists = await fs.isDir(path);

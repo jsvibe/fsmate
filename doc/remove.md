@@ -15,6 +15,7 @@ Asynchronously removes one or more files or directories. For directories, it can
 ```js
 const fs = require('fsmate');
 
+// With Promises:
 fs.remove('/home/node_modules')
 .then(() => {
   console.log('success');
@@ -22,9 +23,10 @@ fs.remove('/home/node_modules')
   console.log(err);
 });
 
+// With async/await:
 async function remove(path) {
   try {
-    fs.remove(path);
+    await fs.remove(path);
     console.log('success');
   } catch(err) {
     console.log(err);
