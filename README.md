@@ -7,7 +7,7 @@ fsMate A modular collection of file system utilities for Node.js
 ![license](https://img.shields.io/github/license/jsvibe/fsmate?color=blue)
 [![downloads month](https://img.shields.io/npm/dm/fsmate)](https://www.npmjs.com/package/fsmate)
 [![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/fsmate?logo=jsdelivr)](https://www.jsdelivr.com/package/npm/fsmate)
-![author](https://img.shields.io/badge/Author-Modassir-blue)
+[![author](https://img.shields.io/badge/Author-Modassir-blue)](https://github.com/indianmodassir)
 [![Publish Package to npm](https://github.com/jsvibe/fsmate/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/jsvibe/fsmate/actions/workflows/npm-publish.yml)
 
 > This package accesses the local file system to perform its core functionality.
@@ -123,6 +123,14 @@ Asynchronous methods with short describe and complete documentation.
 |[writeFile](doc/writeFile.md)|Write content to a file (overwrites existing).|
 |[appendFile](doc/appendFile.md)|Append content to the end of a file.|
 |[dumpFile](doc/dumpFile.md)|Atomically write a file by first writing to a temp file.|
+|[filesize](doc/filesize.md)|Gets file size in bytes.|
+|[fseek](doc/fseek.md)|Seeks on a file pointer.|
+|[ftell](doc/ftell.md)|Returns the current position of the file read/write pointer.|
+|[fgets](doc/fgets.md)|Gets line from file pointer.|
+|[fpassthru](doc/fpassthru.md)|Output all remaining data on a file pointer.|
+|[fread](doc/fread.md)|Binary-safe file read.|
+|[fwrite](doc/fwrite.md)|Binary-safe file write.|
+|[rewind](doc/rewind.md)|Rewind the position of a file pointer.|
 
 ### Sync
 
@@ -153,6 +161,14 @@ Synchronous methods with short describe and complete documentation.
 |[writeFileSync](doc/writeFileSync.md)|Sync write content to a file.|
 |[prependFileSync](doc/prependFileSync.md)|Sync add content at file start.|
 |[dumpFileSync](doc/dumpFileSync.md)|Sync atomic file write.|
+|[filesizeSync](doc/filesizeSync.md)|Sync Gets file size in bytes.|
+|[fseekSync](doc/fseekSync.md)|Sync Seeks on a file pointer.|
+|[ftellSync](doc/ftellSync.md)|Sync Returns the current position of the file read/write pointer.|
+|[fgetsSync](doc/fgetsSync.md)|Sync Gets line from file pointer.|
+|[fpassthruSync](doc/fpassthruSync.md)|Sync Output all remaining data on a file pointer.|
+|[freadSync](doc/freadSync.md)|Sync Binary-safe file read.|
+|[fwriteSync](doc/fwriteSync.md)|Sync Binary-safe file write.|
+|[rewindSync](doc/rewindSync.md)|Sync Rewind the position of a file pointer.|
 
 ### Other Methods
 

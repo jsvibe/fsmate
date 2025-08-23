@@ -1,5 +1,28 @@
 # Release Notes
 
+## [v2.3.0](https://github.com/jsvibe/quanter/compare/v2.2.2...v2.3.0) - 23-08-2025
+
+- Added `fseek` Seeks on a file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `fseekSync` Sync Seeks on a file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `ftell` Returns the current position of the file read/write pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `ftellSync` Sync Returns the current position of the file read/write pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `fgets` Gets line from file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `fgetsSync` Sync Gets line from file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `fpassthru` Output all remaining data on a file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `fpassthruSync` Sync Output all remaining data on a file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `fread` Binary-safe file read [@indianmodassir](https://github.com/indianmodassir).
+- Added `freadSync` Sync Binary-safe file read [@indianmodassir](https://github.com/indianmodassir).
+- Added `fwrite` Binary-safe file write [@indianmodassir](https://github.com/indianmodassir).
+- Added `fwriteSync` Sync Binary-safe file write [@indianmodassir](https://github.com/indianmodassir).
+- Added `rewind` Rewind the position of a file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `rewindSync` Sync Rewind the position of a file pointer [@indianmodassir](https://github.com/indianmodassir).
+- Added `filesize` Gets file size [@indianmodassir](https://github.com/indianmodassir).
+- Added `filesizeSync` Sync Gets file size [@indianmodassir](https://github.com/indianmodassir).
+
+## [v2.2.2](https://github.com/jsvibe/quanter/compare/v2.2.1...v2.2.2) - 20-08-2025
+
+- Fixed bugs like `esm` version and update `package.json` [@indianmodassir](https://github.com/indianmodassir).
+
 ## [v2.2.1](https://github.com/jsvibe/quanter/compare/v2.2.0...v2.2.1) - 18-08-2025
 
 - Fixed bugs `readLine` and `readLineSync` [@indianmodassir](https://github.com/indianmodassir).
