@@ -1,5 +1,9 @@
 # Release Notes
 
+## [v2.4.1](https://github.com/jsvibe/quanter/compare/v2.4.0...v2.4.1) - 01-09-2025
+
+- Fixed bugs `fseek` and `fseekSync` now throwing error, If file or directory does not exists [@indianmodassir](https://github.com/indianmodassir).
+
 ## [v2.4.0](https://github.com/jsvibe/quanter/compare/v2.3.0...v2.4.0) - 23-08-2025
 
 - Added `truncate` Clears file content without deleting it (creates if missing) [@indianmodassir](https://github.com/indianmodassir).
