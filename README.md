@@ -4,7 +4,7 @@ fsMate
 fsMate A modular collection of file system utilities for Node.js
 
 [![npm version](https://img.shields.io/npm/v/fsmate?logo=npm)](https://www.npmjs.com/package/fsmate)
-![license](https://img.shields.io/github/license/jsvibe/fsmate?color=blue)
+[![license](https://img.shields.io/github/license/jsvibe/fsmate?color=blue)](https://github.com/jsvibe/fsmate/blob/main/LICENSE)
 [![downloads month](https://img.shields.io/npm/dm/fsmate)](https://www.npmjs.com/package/fsmate)
 [![jsDelivr Hits](https://img.shields.io/jsdelivr/npm/hm/fsmate?logo=jsdelivr)](https://www.jsdelivr.com/package/npm/fsmate)
 [![author](https://img.shields.io/badge/Author-Modassir-blue)](https://github.com/indianmodassir)
@@ -14,6 +14,17 @@ fsMate A modular collection of file system utilities for Node.js
 It does not transmit file contents to any remote server.
 
 It simplifies working with files and directories by providing a higher-level, promise-based API for common file operations such as checking access permissions, creating files/directories, copying files, and mirroring directories.
+
+See Latest Update
+-----------------
+
+- Added `@see` references in JSDoc comments for better documentation and navigation.
+- Added `dirOnly` option in `scandir()` and `scandirSync()` to list only directories.
+- Added `fileOnly` option in `scandir()` and `scandirSync()` to list only files.
+- Added Third `filter` argument in `scandir()` and `scandirSync()` to allow custom filtering (supports array or function).
+- Improved `scandir()` documentation with `@see` reference to official docs.
+
+**See Release Notes:** 👉 [CHANGELOG](https://github.com/jsvibe/fsmate/blob/main/CHANGELOG.md)
 
 Installation
 ------------

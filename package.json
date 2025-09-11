@@ -1,6 +1,6 @@
 {
   "name": "fsmate",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "description": "A lightweight Node.js library for working with the file system (fs) in a simplified way.",
   "main": "lib/fsmate.js",
   "directories": {

@@ -1,5 +1,13 @@
 # Release Notes
 
+## [v2.5.0](https://github.com/jsvibe/quanter/compare/v2.4.0...v2.4.1) - 11-09-2025
+
+- Added `@see` references in JSDoc comments for better documentation and navigation.
+- Added `dirOnly` option in `scandir()` and `scandirSync()` to list only directories.
+- Added `fileOnly` option in `scandir()` and `scandirSync()` to list only files.
+- Added Third `filter` argument in `scandir()` and `scandirSync()` to allow custom filtering (supports array or function).
+- Improved `scandir()` documentation with `@see` reference to official docs.
+
 ## [v2.4.1](https://github.com/jsvibe/quanter/compare/v2.4.0...v2.4.1) - 01-09-2025
 
 - Fixed bugs `fseek` and `fseekSync` now throwing error, If file or directory does not exists [@indianmodassir](https://github.com/indianmodassir).
