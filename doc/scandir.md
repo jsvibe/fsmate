@@ -8,6 +8,7 @@ Asynchronously scans the contents of a directory and optionally its subdirectori
 
 - `dir` [`<string>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#String_type)
 - `options` [`<Object>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+- `filter` [`<Array>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) | [`<Function>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
 - Returns: [`Promise<any>`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 # Example
@@ -16,9 +17,10 @@ Asynchronously scans the contents of a directory and optionally its subdirectori
 const fs = require('fsmate');
 
 const options = {
-  withFileTypes: true, // For Dirent
-  withFullPath: true,  // Attach with intial path
-  withDeepScan: true   // For deep scanning
+  withFileTypes: true, // For Dirent                                              [optional]
+  withFullPath: true,  // Attach with intial path                                 [optional]
+  withDeepScan: true   // For deep scanning                                       [optional]
+  dirOnly: true        // List only directories (fileOnly: true, List only files) [optional]
 };
 
 // With Promises:
@@ -40,6 +42,30 @@ async function scandir(dir, options) {
 }
 
 scandir('/home/sources', options);
+```
+
+## With Filteration
+
+```js
+const fs = require('fsmate');
+
+// Filteration with Array
+fs.scandir('home/dirs/', {withDeepScan: true}, ['.bin', '.gitignore'])
+.then(res => {
+  console.log(res);
+}).catch(err => {
+  console.log(err);
+});
+
+// Filteration with Function
+fs.scandir('home/dirs/', {withDeepScan: true}, (file, index, files) => {
+  return file[0] !== '.'; // Filter all .files
+})
+.then(res => {
+  console.log(res);
+}).catch(err => {
+  console.log(err);
+});
 ```
 
 For the synchronous version, see: [scandirSync](./scandirSync.md)
